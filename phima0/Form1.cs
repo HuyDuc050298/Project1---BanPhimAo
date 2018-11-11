@@ -26,7 +26,7 @@ namespace phima0
                 return param;
             }
         }
-
+        // định dạng vị trí của form ở giữa màn hình
         public Form1()
         {
             InitializeComponent();
@@ -35,7 +35,7 @@ namespace phima0
         }
 
 
-
+        //in ra tên người dùng
         private void Form1_Load(object sender, EventArgs e)
         {
             string userName = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
@@ -1222,6 +1222,22 @@ namespace phima0
             this.Show();
             this.WindowState = FormWindowState.Normal;
         }
+        bool flag = true;
+        private void notifyIcon1_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (flag == true)
+            {
+                this.notifyIcon1.Icon = new Icon( "icon2.ico");
+                flag = false;
+            }
+            //flag = false;
+            else
+            {
+                this.notifyIcon1.Icon = new Icon( "icon1.ico");
+                flag = true;
+            }
+        }
+        
 
     }
 }
