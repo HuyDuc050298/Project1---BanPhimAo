@@ -1237,7 +1237,15 @@ namespace phima0
                 flag = true;
             }
         }
-        
 
+        private void nguyeenxHUyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Aboutus.Show("Nguyễn Huy Đức \nSinh ngày 05/02/1998 \nEmail : nguyenduc05021998@gmail.com", "AboutUs", "OK");
+        }
+
+        private void saveFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
+
+        }
     }
 }
