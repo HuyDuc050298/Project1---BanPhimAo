@@ -40,6 +40,7 @@ namespace phima0
         {
             string userName = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
             log.Info("UserName: " + userName);
+            Text = Properties.Resources.TenPhanMem;
         }
 
         private void button49_Click(object sender, EventArgs e)

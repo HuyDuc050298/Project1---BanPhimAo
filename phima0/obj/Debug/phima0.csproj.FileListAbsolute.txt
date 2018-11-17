@@ -1,0 +1,13 @@
+C:\Users\Duc\Desktop\New folder (6)\Project1---BanPhimAo\phima0\bin\Debug\phima0.exe.config
+C:\Users\Duc\Desktop\New folder (6)\Project1---BanPhimAo\phima0\bin\Debug\phima0.exe
+C:\Users\Duc\Desktop\New folder (6)\Project1---BanPhimAo\phima0\bin\Debug\phima0.pdb
+C:\Users\Duc\Desktop\New folder (6)\Project1---BanPhimAo\phima0\bin\Debug\log4net.dll
+C:\Users\Duc\Desktop\New folder (6)\Project1---BanPhimAo\phima0\bin\Debug\log4net.xml
+C:\Users\Duc\Desktop\New folder (6)\Project1---BanPhimAo\phima0\obj\Debug\phima0.csprojAssemblyReference.cache
+C:\Users\Duc\Desktop\New folder (6)\Project1---BanPhimAo\phima0\obj\Debug\phima0.Form1.resources
+C:\Users\Duc\Desktop\New folder (6)\Project1---BanPhimAo\phima0\obj\Debug\phima0.Properties.Resources.resources
+C:\Users\Duc\Desktop\New folder (6)\Project1---BanPhimAo\phima0\obj\Debug\phima0.csproj.GenerateResource.cache
+C:\Users\Duc\Desktop\New folder (6)\Project1---BanPhimAo\phima0\obj\Debug\phima0.csproj.CoreCompileInputs.cache
+C:\Users\Duc\Desktop\New folder (6)\Project1---BanPhimAo\phima0\obj\Debug\phima0.csproj.CopyComplete
+C:\Users\Duc\Desktop\New folder (6)\Project1---BanPhimAo\phima0\obj\Debug\phima0.exe
+C:\Users\Duc\Desktop\New folder (6)\Project1---BanPhimAo\phima0\obj\Debug\phima0.pdb
