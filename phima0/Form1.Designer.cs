@@ -143,8 +143,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.aboutUsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nguyeenxHUyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sinhNgày05021998ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.emailNguyenduc05021998gmailcomToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.contextMenuStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -1323,9 +1322,7 @@
             // aboutUsToolStripMenuItem
             // 
             this.aboutUsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.nguyeenxHUyToolStripMenuItem,
-            this.sinhNgày05021998ToolStripMenuItem,
-            this.emailNguyenduc05021998gmailcomToolStripMenuItem});
+            this.nguyeenxHUyToolStripMenuItem});
             this.aboutUsToolStripMenuItem.Name = "aboutUsToolStripMenuItem";
             this.aboutUsToolStripMenuItem.Size = new System.Drawing.Size(78, 24);
             this.aboutUsToolStripMenuItem.Text = "AboutUs";
@@ -1333,20 +1330,13 @@
             // nguyeenxHUyToolStripMenuItem
             // 
             this.nguyeenxHUyToolStripMenuItem.Name = "nguyeenxHUyToolStripMenuItem";
-            this.nguyeenxHUyToolStripMenuItem.Size = new System.Drawing.Size(235, 26);
-            this.nguyeenxHUyToolStripMenuItem.Text = "Nguyễn Huy Đức";
+            this.nguyeenxHUyToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.nguyeenxHUyToolStripMenuItem.Text = "About Us";
+            this.nguyeenxHUyToolStripMenuItem.Click += new System.EventHandler(this.nguyeenxHUyToolStripMenuItem_Click);
             // 
-            // sinhNgày05021998ToolStripMenuItem
+            // saveFileDialog1
             // 
-            this.sinhNgày05021998ToolStripMenuItem.Name = "sinhNgày05021998ToolStripMenuItem";
-            this.sinhNgày05021998ToolStripMenuItem.Size = new System.Drawing.Size(235, 26);
-            this.sinhNgày05021998ToolStripMenuItem.Text = "Sinh ngày : 05/02/1998";
-            // 
-            // emailNguyenduc05021998gmailcomToolStripMenuItem
-            // 
-            this.emailNguyenduc05021998gmailcomToolStripMenuItem.Name = "emailNguyenduc05021998gmailcomToolStripMenuItem";
-            this.emailNguyenduc05021998gmailcomToolStripMenuItem.Size = new System.Drawing.Size(348, 26);
-            this.emailNguyenduc05021998gmailcomToolStripMenuItem.Text = "Email; nguyenduc05021998@gmail.com";
+            this.saveFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.saveFileDialog1_FileOk);
             // 
             // Form1
             // 
@@ -1590,8 +1580,7 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem aboutUsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem nguyeenxHUyToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sinhNgày05021998ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem emailNguyenduc05021998gmailcomToolStripMenuItem;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
     }
 }
 

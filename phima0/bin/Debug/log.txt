@@ -1,1 +1,0 @@
-2018-11-17 15:35:37,089 [1] INFO  phima0.Form1 [(null)] - UserName: DESKTOP-HSD3JV6\Duc
